@@ -1,0 +1,41 @@
+const name = "Subhan"
+const age = 16
+
+//console.log(name + age + "Value");
+
+//bapticks
+
+console.log(`Hello my name is ${name} and my age is ${age}`);
+
+const gameName = new String("Subhan_Ahmad")
+
+console.log(gameName[0]);
+console.log(gameName.__proto__);
+
+console.log(gameName.length);
+console.log(gameName.toUpperCase()); //SUBHAN
+
+console.log(gameName.charAt(2)); //b
+console.log(gameName.indexOf('b')); //2
+
+const newString = gameName.substring(0,4)
+console.log(newString) // Subh
+
+const anotherString = gameName.slice(-8,4) // can give negative value in slice
+console.log(anotherString) 
+
+const newString1 = "   subhan   "
+console.log(newString1.trim()) // "subhan (removes spaces)
+
+const url = "https://subhan.com/Subhan%20Ahmad"
+
+console.log(url.replace('%20','-'));
+
+console.log(url.includes('Subhan'));
+
+const str1 = "Subhan-Ali-Ahmad"
+console.log(str1.split("-"));
+
+
+
+// check methods at browser console
